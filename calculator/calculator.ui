@@ -37,7 +37,7 @@
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
-     <widget class="QLineEdit" name="lineEdit">
+     <widget class="QLineEdit" name="display_lineEdit">
       <property name="font">
        <font>
         <pointsize>32</pointsize>
