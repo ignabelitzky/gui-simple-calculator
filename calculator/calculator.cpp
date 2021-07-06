@@ -6,6 +6,8 @@ Calculator::Calculator(QWidget *parent)
     , ui(new Ui::Calculator)
 {
     ui->setupUi(this);
+    statusLabel = new QLabel;
+    ui->statusBar->addPermanentWidget(statusLabel);
     display = ui->display_lineEdit;
     value1 = 0;
     value2 = 0;
@@ -15,6 +17,7 @@ Calculator::Calculator(QWidget *parent)
 
 Calculator::~Calculator()
 {
+    delete statusLabel;
     delete ui;
 }
 
@@ -89,6 +92,11 @@ void Calculator::on_nine_btn_clicked()
    display->setText(previousText + "9");
 }
 
+void Calculator::on_comma_btn_clicked()
+{
+   QString previousText = display->text();
+   display->setText(previousText + ".");
+}
 
 void Calculator::on_clear_btn_clicked()
 {
@@ -143,10 +151,34 @@ void Calculator::on_equal_btn_clicked()
     case '/':
         result = value1 / value2;
         break;
+    case '%':
+        result = (static_cast<int>(value1)) % (static_cast<int>(value2));
+        break;
     default:
         qDebug() << "Invalid operation";
         break;
     }
     display->setText(QString::number(result));
+    statusLabel->setText(QString::number(value1) + operation + QString::number(value2));
+}
+
+
+void Calculator::on_backspace_btn_clicked()
+{
+    qsizetype lengthText = display->text().length();
+   if(lengthText > 0) {
+       QString newText = display->text().first(lengthText - 1);
+       display->setText(newText);
+   }
+}
+
+
+
+
+void Calculator::on_mod_btn_clicked()
+{
+   value1 = display->text().toDouble();
+   operation = '%';
+   display->setText("");
 }
 

@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include <QLineEdit>
+#include <QLabel>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Calculator; }
@@ -49,9 +50,16 @@ private slots:
 
     void on_equal_btn_clicked();
 
+    void on_backspace_btn_clicked();
+
+    void on_comma_btn_clicked();
+
+    void on_mod_btn_clicked();
+
 private:
     Ui::Calculator *ui;
     QLineEdit *display;
+    QLabel *statusLabel;
     double value1;
     double value2;
     double result;
