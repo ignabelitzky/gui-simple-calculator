@@ -73,6 +73,12 @@
       </property>
       <item row="1" column="3">
        <widget class="QPushButton" name="product_btn">
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
@@ -89,6 +95,12 @@ selection-background-color: rgb(255, 120, 0);</string>
       </item>
       <item row="2" column="2">
        <widget class="QPushButton" name="three_btn">
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
@@ -102,6 +114,12 @@ selection-background-color: rgb(255, 120, 0);</string>
       </item>
       <item row="1" column="1">
        <widget class="QPushButton" name="five_btn">
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
@@ -115,6 +133,12 @@ selection-background-color: rgb(255, 120, 0);</string>
       </item>
       <item row="2" column="0">
        <widget class="QPushButton" name="one_btn">
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
@@ -128,6 +152,12 @@ selection-background-color: rgb(255, 120, 0);</string>
       </item>
       <item row="0" column="0">
        <widget class="QPushButton" name="seven_btn">
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
@@ -141,6 +171,12 @@ selection-background-color: rgb(255, 120, 0);</string>
       </item>
       <item row="3" column="3">
        <widget class="QPushButton" name="sum_btn">
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
@@ -157,6 +193,12 @@ selection-background-color: rgb(255, 120, 0);</string>
       </item>
       <item row="1" column="0">
        <widget class="QPushButton" name="four_btn">
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
@@ -170,6 +212,12 @@ selection-background-color: rgb(255, 120, 0);</string>
       </item>
       <item row="1" column="2">
        <widget class="QPushButton" name="six_btn">
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
@@ -183,6 +231,12 @@ selection-background-color: rgb(255, 120, 0);</string>
       </item>
       <item row="0" column="3">
        <widget class="QPushButton" name="divide_btn">
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
@@ -199,6 +253,12 @@ selection-background-color: rgb(255, 120, 0);</string>
       </item>
       <item row="0" column="1">
        <widget class="QPushButton" name="eight_btn">
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
@@ -212,6 +272,12 @@ selection-background-color: rgb(255, 120, 0);</string>
       </item>
       <item row="2" column="3">
        <widget class="QPushButton" name="subtract_btn">
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
@@ -228,6 +294,12 @@ selection-background-color: rgb(255, 120, 0);</string>
       </item>
       <item row="0" column="2">
        <widget class="QPushButton" name="nine_btn">
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
@@ -241,6 +313,12 @@ selection-background-color: rgb(255, 120, 0);</string>
       </item>
       <item row="2" column="1">
        <widget class="QPushButton" name="two_btn">
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
@@ -266,6 +344,12 @@ selection-background-color: rgb(255, 120, 0);</string>
           <height>16777215</height>
          </size>
         </property>
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
@@ -288,6 +372,12 @@ selection-background-color: rgb(255, 120, 0);</string>
       </item>
       <item row="2" column="4">
        <widget class="QPushButton" name="mod_btn">
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
@@ -298,12 +388,18 @@ selection-background-color: rgb(255, 120, 0);</string>
 selection-background-color: rgb(255, 120, 0);</string>
         </property>
         <property name="text">
-         <string>%</string>
+         <string>mod</string>
         </property>
        </widget>
       </item>
       <item row="0" column="4">
        <widget class="QPushButton" name="clear_btn">
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
@@ -330,12 +426,23 @@ selection-background-color: rgb(255, 120, 0);</string>
 selection-background-color: rgb(255, 120, 0);</string>
         </property>
         <property name="text">
-         <string>&lt;==</string>
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/resources/ui/resources/left_arrow.png</normalon>
+         </iconset>
         </property>
        </widget>
       </item>
       <item row="3" column="0">
        <widget class="QPushButton" name="zero_btn">
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
@@ -349,6 +456,12 @@ selection-background-color: rgb(255, 120, 0);</string>
       </item>
       <item row="3" column="1">
        <widget class="QPushButton" name="comma_btn">
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
@@ -365,6 +478,15 @@ selection-background-color: rgb(255, 120, 0);</string>
       </item>
       <item row="3" column="2">
        <widget class="QPushButton" name="negative_btn">
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
         <property name="styleSheet">
          <string notr="true">background-color: rgb(255, 190, 111);
 
