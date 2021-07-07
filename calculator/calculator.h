@@ -60,8 +60,8 @@ private:
     Ui::Calculator *ui;
     QLineEdit *display;
     QLabel *statusLabel;
-    double value1;
-    double value2;
+    double firstValue;
+    double secondValue;
     double result;
     char operation;
 

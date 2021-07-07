@@ -9,8 +9,8 @@ Calculator::Calculator(QWidget *parent)
     statusLabel = new QLabel;
     ui->statusBar->addPermanentWidget(statusLabel);
     display = ui->display_lineEdit;
-    value1 = 0;
-    value2 = 0;
+    firstValue = 0;
+    secondValue = 0;
     operation = '\0';
     result = 0;
 }
@@ -101,11 +101,13 @@ void Calculator::on_comma_btn_clicked()
 void Calculator::on_clear_btn_clicked()
 {
    display->setText("");
+   statusLabel->setText("");
 }
 
 void Calculator::on_divide_btn_clicked()
 {
-    value1 = display->text().toDouble();
+    statusLabel->setText(display->text());
+    firstValue = display->text().toDouble();
     operation = '/';
     display->setText("");
 }
@@ -113,7 +115,8 @@ void Calculator::on_divide_btn_clicked()
 
 void Calculator::on_product_btn_clicked()
 {
-    value1 = display->text().toDouble();
+    statusLabel->setText(display->text());
+    firstValue= display->text().toDouble();
     operation = '*';
     display->setText("");
 }
@@ -121,45 +124,54 @@ void Calculator::on_product_btn_clicked()
 
 void Calculator::on_subtract_btn_clicked()
 {
-    value1 = display->text().toDouble();
-    operation = '-';
-    display->setText("");
+    if(display->text().isEmpty()) {
+        display->setText("-");
+    } else {
+        statusLabel->setText(display->text());
+        firstValue = display->text().toDouble();
+        operation = '-';
+        display->setText("");
+    }
 }
 
 
 void Calculator::on_sum_btn_clicked()
 {
-    value1 = display->text().toDouble();
-    operation = '+';
-    display->setText("");
+    if(display->text().isEmpty()) {
+        display->setText("+");
+    } else {
+        statusLabel->setText(display->text());
+        firstValue = display->text().toDouble();
+        operation = '+';
+        display->setText("");
+    }
 }
 
 
 void Calculator::on_equal_btn_clicked()
 {
-    value2 = display->text().toDouble();
+    secondValue = display->text().toDouble();
     switch(operation) {
     case '+':
-        result = value1 + value2;
+        result = firstValue + secondValue;
         break;
     case '-':
-        result = value1 - value2;
+        result = firstValue - secondValue;
         break;
     case '*':
-        result = value1 * value2;
+        result = firstValue* secondValue;
         break;
     case '/':
-        result = value1 / value2;
+        result = firstValue / secondValue;
         break;
     case '%':
-        result = (static_cast<int>(value1)) % (static_cast<int>(value2));
+        result = (static_cast<int>(firstValue)) % (static_cast<int>(secondValue));
         break;
     default:
-        qDebug() << "Invalid operation";
         break;
     }
     display->setText(QString::number(result));
-    statusLabel->setText(QString::number(value1) + operation + QString::number(value2));
+    statusLabel->setText(QString::number(firstValue) + operation + QString::number(secondValue));
 }
 
 
@@ -173,12 +185,10 @@ void Calculator::on_backspace_btn_clicked()
 }
 
 
-
-
 void Calculator::on_mod_btn_clicked()
 {
-   value1 = display->text().toDouble();
-   operation = '%';
-   display->setText("");
+    statusLabel->setText(display->text());
+    firstValue = display->text().toDouble();
+    operation = '%';
+    display->setText("");
 }
-
