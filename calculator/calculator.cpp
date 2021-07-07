@@ -192,3 +192,11 @@ void Calculator::on_mod_btn_clicked()
     operation = '%';
     display->setText("");
 }
+
+void Calculator::on_negative_btn_clicked()
+{
+    double_t displayValue = display->text().toDouble();
+    displayValue = -displayValue;
+    display->setText(QString::number(displayValue));
+}
+

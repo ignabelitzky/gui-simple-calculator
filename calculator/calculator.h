@@ -56,6 +56,8 @@ private slots:
 
     void on_mod_btn_clicked();
 
+    void on_negative_btn_clicked();
+
 private:
     Ui::Calculator *ui;
     QLineEdit *display;

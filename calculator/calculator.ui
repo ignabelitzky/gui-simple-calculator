@@ -9,8 +9,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>364</width>
-    <height>213</height>
+    <width>370</width>
+    <height>250</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -21,8 +21,8 @@
   </property>
   <property name="minimumSize">
    <size>
-    <width>364</width>
-    <height>213</height>
+    <width>370</width>
+    <height>250</height>
    </size>
   </property>
   <property name="maximumSize">
@@ -257,13 +257,13 @@ selection-background-color: rgb(255, 120, 0);</string>
         <property name="minimumSize">
          <size>
           <width>0</width>
-          <height>21</height>
+          <height>0</height>
          </size>
         </property>
         <property name="maximumSize">
          <size>
-          <width>64</width>
-          <height>27</height>
+          <width>16777215</width>
+          <height>16777215</height>
          </size>
         </property>
         <property name="focusPolicy">
@@ -302,35 +302,6 @@ selection-background-color: rgb(255, 120, 0);</string>
         </property>
        </widget>
       </item>
-      <item row="3" column="2">
-       <widget class="QPushButton" name="comma_btn">
-        <property name="focusPolicy">
-         <enum>Qt::NoFocus</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">background-color: rgb(255, 190, 111);
-
-
-selection-background-color: rgb(255, 120, 0);</string>
-        </property>
-        <property name="text">
-         <string>.</string>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="1">
-       <widget class="QPushButton" name="zero_btn">
-        <property name="focusPolicy">
-         <enum>Qt::NoFocus</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">background-color: rgb(153, 193, 241);</string>
-        </property>
-        <property name="text">
-         <string>0</string>
-        </property>
-       </widget>
-      </item>
       <item row="0" column="4">
        <widget class="QPushButton" name="clear_btn">
         <property name="focusPolicy">
@@ -363,6 +334,47 @@ selection-background-color: rgb(255, 120, 0);</string>
         </property>
        </widget>
       </item>
+      <item row="3" column="0">
+       <widget class="QPushButton" name="zero_btn">
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(153, 193, 241);</string>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QPushButton" name="comma_btn">
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 190, 111);
+
+
+selection-background-color: rgb(255, 120, 0);</string>
+        </property>
+        <property name="text">
+         <string>.</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="2">
+       <widget class="QPushButton" name="negative_btn">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 190, 111);
+
+selection-background-color: rgb(255, 120, 0);</string>
+        </property>
+        <property name="text">
+         <string>+/-</string>
+        </property>
+       </widget>
+      </item>
      </layout>
     </item>
    </layout>
@@ -384,8 +396,6 @@ selection-background-color: rgb(255, 120, 0);</string>
   <tabstop>one_btn</tabstop>
   <tabstop>two_btn</tabstop>
   <tabstop>three_btn</tabstop>
-  <tabstop>zero_btn</tabstop>
-  <tabstop>comma_btn</tabstop>
   <tabstop>divide_btn</tabstop>
   <tabstop>clear_btn</tabstop>
   <tabstop>product_btn</tabstop>
