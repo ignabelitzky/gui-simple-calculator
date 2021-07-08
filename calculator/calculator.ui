@@ -43,14 +43,18 @@
      <widget class="QLineEdit" name="display_lineEdit">
       <property name="font">
        <font>
-        <family>URW Bookman</family>
+        <family>Waree</family>
         <pointsize>32</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255, 255, 255);</string>
+       <string notr="true">QLineEdit {
+	background-color: white;
+	border: 1px solid gray;
+	color: black;
+}</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
