@@ -21,6 +21,77 @@ Calculator::~Calculator()
     delete ui;
 }
 
+void Calculator::keyPressEvent(QKeyEvent *e) {
+    int keyPressed = e->key();
+    switch(keyPressed) {
+    case Qt::Key_0:
+        on_zero_btn_clicked();
+        break;
+    case Qt::Key_1:
+        on_one_btn_clicked();
+        break;
+    case Qt::Key_2:
+        on_two_btn_clicked();
+        break;
+    case Qt::Key_3:
+        on_three_btn_clicked();
+        break;
+    case Qt::Key_4:
+        on_four_btn_clicked();
+        break;
+    case Qt::Key_5:
+        on_five_btn_clicked();
+        break;
+    case Qt::Key_6:
+        on_six_btn_clicked();
+        break;
+    case Qt::Key_7:
+        on_seven_btn_clicked();
+        break;
+    case Qt::Key_8:
+        on_eight_btn_clicked();
+        break;
+    case Qt::Key_9:
+        on_nine_btn_clicked();
+        break;
+    case Qt::Key_Equal:
+        on_equal_btn_clicked();
+        break;
+    case Qt::Key_Comma:
+        on_comma_btn_clicked();
+        break;
+    case Qt::Key_Period:
+        on_comma_btn_clicked();
+        break;
+    case Qt::Key_Plus:
+        on_sum_btn_clicked();
+        break;
+    case Qt::Key_Minus:
+        on_subtract_btn_clicked();
+        break;
+    case Qt::Key_Asterisk:
+        on_product_btn_clicked();
+        break;
+    case Qt::Key_Slash:
+        on_divide_btn_clicked();
+        break;
+    case Qt::Key_Percent:
+        on_mod_btn_clicked();
+        break;
+    case Qt::Key_Delete:
+        on_clear_btn_clicked();
+        break;
+    case Qt::Key_Backspace:
+        on_backspace_btn_clicked();
+        break;
+    case Qt::Key_Return:
+        on_equal_btn_clicked();
+        break;
+    default:
+        break;
+    }
+}
+
 
 void Calculator::on_zero_btn_clicked()
 {

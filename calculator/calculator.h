@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include <QLineEdit>
 #include <QLabel>
+#include <QKeyEvent>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Calculator; }
@@ -16,6 +17,9 @@ class Calculator : public QMainWindow
 public:
     Calculator(QWidget *parent = nullptr);
     ~Calculator();
+
+protected:
+    void keyPressEvent(QKeyEvent *e);
 
 private slots:
     void on_zero_btn_clicked();
