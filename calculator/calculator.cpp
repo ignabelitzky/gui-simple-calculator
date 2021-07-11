@@ -87,6 +87,9 @@ void Calculator::keyPressEvent(QKeyEvent *e) {
     case Qt::Key_Return:
         on_equal_btn_clicked();
         break;
+    case Qt::Key_Enter:
+        on_equal_btn_clicked();
+        break;
     default:
         break;
     }
