@@ -13,6 +13,10 @@ You will need some libraries from QT Framework, you can download the software fr
 ## Getting Started
 To compile the GUI Calculator you should open the calculator.pro file with QT Creator and now you can build the app and run on your Linux machine.
 
+### Screenshots
+![Img 1](https://github.com/ignabelitzky/gui-simple-calculator/blob/main/screenshots/screenshot_img1.png)
+![Img 2](https://github.com/ignabelitzky/gui-simple-calculator/blob/main/screenshots/screenshot_img2.png)
+
 ## Contributing
 This piece of software is far for complete so pull requests are welcome. For major changes, please open an issue first to discuss what you wold like to change.
 
