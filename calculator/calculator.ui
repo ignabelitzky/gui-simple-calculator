@@ -35,7 +35,13 @@
    <string>Calculator</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(222, 221, 218);</string>
+   <string notr="true">QPushButton {
+	border-radius: 5px;
+	border: 1px solid gray;
+	padding: 2px;
+}
+
+background-color: rgb(222, 221, 218);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -88,6 +94,7 @@
         </property>
         <property name="font">
          <font>
+          <pointsize>14</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -120,6 +127,11 @@ QPushButton:pressed {
           <horstretch>0</horstretch>
           <verstretch>0</verstretch>
          </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>14</pointsize>
+         </font>
         </property>
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
@@ -157,6 +169,7 @@ QPushButton:pressed {
         </property>
         <property name="font">
          <font>
+          <pointsize>14</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -192,6 +205,7 @@ QPushButton:pressed {
         </property>
         <property name="font">
          <font>
+          <pointsize>14</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -202,8 +216,6 @@ QPushButton:pressed {
         <property name="styleSheet">
          <string notr="true">QPushButton {
 	background-color: #4682B4;
-	border: 2px solid gray;
-	padding: 2px;
 }
 
 QPushButton:pressed {
@@ -227,6 +239,7 @@ QPushButton:pressed {
         </property>
         <property name="font">
          <font>
+          <pointsize>14</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -262,6 +275,7 @@ QPushButton:pressed {
         </property>
         <property name="font">
          <font>
+          <pointsize>14</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -297,6 +311,7 @@ QPushButton:pressed {
         </property>
         <property name="font">
          <font>
+          <pointsize>14</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -318,7 +333,7 @@ QPushButton:pressed {
 }</string>
         </property>
         <property name="text">
-         <string>x</string>
+         <string>X</string>
         </property>
        </widget>
       </item>
@@ -332,6 +347,7 @@ QPushButton:pressed {
         </property>
         <property name="font">
          <font>
+          <pointsize>14</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -367,6 +383,7 @@ QPushButton:pressed {
         </property>
         <property name="font">
          <font>
+          <pointsize>14</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -402,6 +419,7 @@ QPushButton:pressed {
         </property>
         <property name="font">
          <font>
+          <pointsize>14</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -437,6 +455,7 @@ QPushButton:pressed {
         </property>
         <property name="font">
          <font>
+          <pointsize>14</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -472,6 +491,7 @@ QPushButton:pressed {
         </property>
         <property name="font">
          <font>
+          <pointsize>14</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -507,6 +527,7 @@ QPushButton:pressed {
         </property>
         <property name="font">
          <font>
+          <pointsize>14</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -542,6 +563,7 @@ QPushButton:pressed {
         </property>
         <property name="font">
          <font>
+          <pointsize>14</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -577,6 +599,7 @@ QPushButton:pressed {
         </property>
         <property name="font">
          <font>
+          <pointsize>14</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -612,6 +635,7 @@ QPushButton:pressed {
         </property>
         <property name="font">
          <font>
+          <pointsize>14</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -659,6 +683,7 @@ QPushButton:pressed {
         </property>
         <property name="font">
          <font>
+          <pointsize>14</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -700,6 +725,7 @@ QPushButton:pressed {
         </property>
         <property name="font">
          <font>
+          <pointsize>14</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -735,6 +761,7 @@ QPushButton:pressed {
         </property>
         <property name="font">
          <font>
+          <pointsize>14</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -770,6 +797,7 @@ QPushButton:pressed {
         </property>
         <property name="font">
          <font>
+          <pointsize>14</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
