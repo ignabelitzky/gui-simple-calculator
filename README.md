@@ -18,7 +18,7 @@ To compile the GUI Calculator you should open the calculator.pro file with QT Cr
 ![Img 2](https://github.com/ignabelitzky/gui-simple-calculator/blob/main/screenshots/screenshot_img2.png)
 
 ## Contributing
-This piece of software is far for complete so pull requests are welcome. For major changes, please open an issue first to discuss what you wold like to change.
+This piece of software is far for complete so pull requests are welcome. For major changes, please open an issue first to discuss what would you like to change.
 
 ## License
 GNU Lesser General Public License v2.1
