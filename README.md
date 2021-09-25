@@ -1,5 +1,5 @@
 # Simple GUI calculator
-Calculator for linux systems that performs the most basic operations:
+Calculator for linux that performs the most basic operations:
 - Addition
 - Subraction
 - Multiplication
@@ -11,7 +11,7 @@ You will need some libraries from QT Framework, you can download the software fr
 [QT Framework](https://www.qt.io/)
 
 ## Getting Started
-To compile the GUI Calculator you should open the calculator.pro file with QT Creator and now you can build the app and run on your Linux machine.
+To compile the GUI Calculator you should open the calculator.pro file with QT Creator, build the app and run on your Linux machine.
 
 ### Screenshots
 ![Img 1](https://github.com/ignabelitzky/gui-simple-calculator/blob/main/screenshots/screenshot_img1.png)
